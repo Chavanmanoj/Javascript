@@ -1,8 +1,25 @@
-//type coercion == vs ===
-a = "5" + 1; // '51'
-b = "5" - 1; // 4
+//operators 
 
-//truthy vs falsy values
-// Falsy values: false, 0, "", null, undefined, NaN
-// Truthy values: true, 1, "hello", [], {}, function() {}, etc.
-// typeof NaN === "number"//TRUE FAILED NUMBER OPERATION IS CALLED NaN
+// Arithmetic Operators
+// + - * / % **
+
+// Assignment Operators
+// = += -= *= /= %= **=
+
+// Comparison Operators
+// == === != !== > < >= <=
+
+// Logical Operators
+// && || !
+
+// Bitwise Operators
+// & | ^ ~ << >> >>>
+
+// Ternary Operator
+// condition ? expression1 : expression2
+
+// Type Operators
+// typeof instanceof
+
+// Unary Operators
+// + - ++ -- ! ~ typeof void delete
