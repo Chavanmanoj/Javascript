@@ -1,80 +1,34 @@
-//var let const
+// data types
 
-//declaration and initialization
+//primitives -> string, number, boolean, null, undefined, symbol
+//1. string
+// '' - single qoutes
+// "" - double qoutes
+// `` - backticks
 
-/*var a; //declare
-var a = 32 ;//initialize
+//2. number
+//12 - integer
+//12.3 - number
 
-//add in the window when we create with the var 
-// function soped hota hai var
+//3. boolean
+let a = true;
+let b = false;
 
-var username = "manoj";
-//console.log(username);
+//4. null
+let c = null;
 
-var username = "ihcus"; //op is ihcus of the username
-console.log(username);
+//5.undefined
+let d;
 
-//now let 
-let b = 42;
-let b = 75; we cannot declare variable 
-with let again in the same scope */
+//6.symbol
+// unique and immutable data type
+let e = Symbol('description'); 
 
-/*console.log(b);
+//7.BIGINT
+let f = 1234567890123456789012345678901234567890n; // BigInt literal
 
-//const
-
-const c =3.14 ; 
-
-// scope global block functional
-
-function test(){
-    var x = 10; //function scope
-}
-
-// global scope
-
-var x = 10 ;
-
-//block scope
-{
-    var y =20; //var function scope
-    let w = 20; //block scope we use in the block only
-}*/
-
-//reassignment redeclaration and initialization
-
-/*var a = 10;
-a = 32;
-//redeclaration with the var is possible
-
-let b = 32;
-b = 63;// reassignment with let is possible
-//redeclarement with let is not possible
-
-const c = 3.14;
-//reassignment with const is not possible
-//redeclaration with const is not possible*/
-
-//temporary dead zone
-/*console.log(a);//error 
-//temporal dead zone 60 to 65
+//reference types -> object, array, function
+//[] {} ()
 
 
-
-
-let a = 32;*/
-
-/*console.log(g);
-
-//its shows undefined
-var g = 53 ;*/
-
-//hoisting
- var -> hoist -> undefined
-let -> hoist -> temporal dead zone
-const -> hoist -> temporal dead zone 
-var a = undefined
-//hoisting impact per type of variable
-console.log(a); //undefined 
-a = 23;
 
