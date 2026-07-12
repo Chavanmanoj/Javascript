@@ -56,7 +56,7 @@ const c = 3.14;
 //redeclaration with const is not possible*/
 
 //temporary dead zone
-console.log(a);//error 
+/*console.log(a);//error 
 //temporal dead zone 60 to 65
 
 
@@ -64,7 +64,17 @@ console.log(a);//error
 
 let a = 32;*/
 
-console.log(g);
+/*console.log(g);
 
 //its shows undefined
-var g = 53 ;
+var g = 53 ;*/
+
+//hoisting
+ var -> hoist -> undefined
+let -> hoist -> temporal dead zone
+const -> hoist -> temporal dead zone 
+var a = undefined
+//hoisting impact per type of variable
+console.log(a); //undefined 
+a = 23;
+
