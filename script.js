@@ -43,7 +43,7 @@ var x = 10 ;
 
 //reassignment redeclaration and initialization
 
-var a = 10;
+/*var a = 10;
 a = 32;
 //redeclaration with the var is possible
 
@@ -53,4 +53,18 @@ b = 63;// reassignment with let is possible
 
 const c = 3.14;
 //reassignment with const is not possible
-//redeclaration with const is not possible
+//redeclaration with const is not possible*/
+
+//temporary dead zone
+console.log(a);//error 
+//temporal dead zone 60 to 65
+
+
+
+
+let a = 32;*/
+
+console.log(g);
+
+//its shows undefined
+var g = 53 ;
