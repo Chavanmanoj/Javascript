@@ -23,3 +23,19 @@ console.log(b);
 //const
 
 const c =3.14 ; 
+
+// scope global block functional
+
+function test(){
+    var x = 10; //function scope
+}
+
+// global scope
+
+var x = 10 ;
+
+//block scope
+{
+    var y =20; //var function scope
+    let w = 20; //block scope we use in the block only
+}
