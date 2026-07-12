@@ -1,34 +1,20 @@
-// data types
-
-//primitives -> string, number, boolean, null, undefined, symbol
-//1. string
-// '' - single qoutes
-// "" - double qoutes
-// `` - backticks
-
-//2. number
-//12 - integer
-//12.3 - number
-
-//3. boolean
-let a = true;
-let b = false;
-
-//4. null
-let c = null;
-
-//5.undefined
-let d;
-
-//6.symbol
-// unique and immutable data type
-let e = Symbol('description'); 
-
-//7.BIGINT
-let f = 1234567890123456789012345678901234567890n; // BigInt literal
-
 //reference types -> object, array, function
 //[] {} ()
 
+let a = [1, 2, 3, 4, 5] //array
+let b = a ;
 
+b.pop() //removes last element from array
 
+let a ={}
+
+//dynamaic typing in js
+let c = "hello";
+c = true ;
+a =  23;
+a = null ;
+
+//typeof operator
+console.log(typeof a) //object
+console.log(typeof c) //boolean
+console.log(typeof b) //object
