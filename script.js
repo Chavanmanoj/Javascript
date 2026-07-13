@@ -1,25 +1,32 @@
-//operators 
+//control flow
 
-// Arithmetic Operators
-// + - * / % **
+// if else
+if(3>43){
+    console.log("greater");
+}else{
+    console.log("lesser");
+}
+//switch
 
-// Assignment Operators
-// = += -= *= /= %= **=
+switch(value){
+    case 1:
+        console.log("one");
+        break;
+    case 2:
+        console.log("two");
+        break;
+    default:
+        console.log("other");
+}
 
-// Comparison Operators
-// == === != !== > < >= <=
+//early return pattern
 
-// Logical Operators
-// && || !
-
-// Bitwise Operators
-// & | ^ ~ << >> >>>
-
-// Ternary Operator
-// condition ? expression1 : expression2
-
-// Type Operators
-// typeof instanceof
-
-// Unary Operators
-// + - ++ -- ! ~ typeof void delete
+function getVal(value){
+    if(value === 1){
+        return "one";
+    }
+    if(value === 2){
+        return "two";
+    }
+    return "other";
+}
