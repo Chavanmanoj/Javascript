@@ -1,32 +1,30 @@
-//control flow
+//looping
 
-// if else
-if(3>43){
-    console.log("greater");
-}else{
-    console.log("lesser");
-}
-//switch
-
-switch(value){
-    case 1:
-        console.log("one");
-        break;
-    case 2:
-        console.log("two");
-        break;
-    default:
-        console.log("other");
+for (let i = 0 ; i < 10 ; i++){
+    console.log(i);
 }
 
-//early return pattern
+//while loop
 
-function getVal(value){
-    if(value === 1){
-        return "one";
-    }
-    if(value === 2){
-        return "two";
-    }
-    return "other";
+//syntax
+start
+while(end){
+    //code
+    change
 }
+
+let i = 1;
+while(i <= 10){
+    console.log(i);
+    i++;
+}
+
+//do while loop
+
+//syntax    
+let i = 12;
+do{
+console.log(i);
+i++;
+}
+while(i <= 10)
