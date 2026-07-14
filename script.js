@@ -1,4 +1,5 @@
-//higher orders function
-function higherOrderFunction(callback) {
-    callback();
+//first class functions
+let myFunction = function() {
+    console.log("Hello World");
 }
+myFunction();
