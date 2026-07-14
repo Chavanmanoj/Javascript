@@ -1,6 +1,10 @@
-// fat arrow function
+// function parameters and arguments
 
-let fnc = () => {
-    console.log("Hello World");
+function dance(v1/*this are parameter*/) {
+    console.log(`${v1} is dancing `);
+
 }
+ dance("Alice"/*arguments*/);
+ dance("Bob");
+ dance("Charlie");
 
