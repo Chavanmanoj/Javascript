@@ -1,12 +1,16 @@
-//default pararmeter
-function add(v1 = 0,v2 = 0){
-    console.log(v1 + v2);
-}
-add();
+//return
 
-// arguments object rest operator
-function abcd(...args){
-    console.log(args);
+function returnValue(value) {
+    return value;
 }
 
-abcd(3,5,67,7,);
+value = returnValue(5);
+console.log(value); // Output: 5
+
+//early return
+
+function checkNumber(num) {
+    if (num < 0) {
+        return "Negative number";
+    }
+}   
