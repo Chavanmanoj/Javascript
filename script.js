@@ -1,10 +1,12 @@
-// function parameters and arguments
-
-function dance(v1/*this are parameter*/) {
-    console.log(`${v1} is dancing `);
-
+//default pararmeter
+function add(v1 = 0,v2 = 0){
+    console.log(v1 + v2);
 }
- dance("Alice"/*arguments*/);
- dance("Bob");
- dance("Charlie");
+add();
 
+// arguments object rest operator
+function abcd(...args){
+    console.log(args);
+}
+
+abcd(3,5,67,7,);
