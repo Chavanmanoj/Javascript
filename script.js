@@ -1,11 +1,20 @@
-// lexical scoping
+(function(){
+    
+})();
+
+//hoisting 
+//this will run 
+abcd();
+
+
+
 function abcd() {
-    let a = 10;
-    function inner() {
-        let b = 20;
-        function innerMost() {
-            let c = 30;
-            console.log(a + b + c); // Accessing variables from outer scopes
-        }
-    }
+    console.log("Hello World");
+}
+// this will not run
+
+fe();
+
+let fe = function() {
+    console.log("Hello World");
 }
